@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Lobster|Risque" rel="stylesheet"> 
+		<link href="main.css" rel="stylesheet"> 
+		<title>Jivin' with Javascript</title>
+		<style>
+    	.hide {
+     	display:none; 
+    	}
+    	</style>
+    </head>
+
+	<body>
+
+	<article> 
+
+		<h2> Ready to know a fact? </h2>
+
+
+		<section> 
+    	   <!-- 2.) use javascript to dynamically create content for the paragraph and h2 elements -->
+    	   <p class="hidden">If you place your Javascript file in the head tag, it won't load the remaining content i.e. body tag until it finishes the script files. It also execute the javascript  even before DOM is ready.So, it would be good to include javascript at the bottom of an html page than in the head </p>
+		   	<button id="showheader">Dynamic h2</button>
+		   	<button id="show">Interested</button>
+		   	<button id="hide">Not Interested !</button>
+
+		</section>
+
+		</article>
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+			<!--linking to our jquery files-->
+			<script type="text/javascript" src="javascript.js"></script>
+			<!-- //3.) research and provide one reason why it would be good to include javascript at the bottom of an html page than than in the head (although ...it's usually a good idea to have a separate js file ;) ) -->
+	</body>
+</html>
